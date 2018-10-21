@@ -20,5 +20,8 @@ function increaseRankBy(n){
 }
 
 function deepestNodeChild(){
+  const deep = document
+                .getElementById('app')
+                .querySelector('#grand-node')
   
 }
