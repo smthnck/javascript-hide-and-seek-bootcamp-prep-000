@@ -19,6 +19,6 @@ function increaseRankBy(n){
   }
 }
 
-function deepestNode(){
+function deepestNodeChild(){
   
 }
