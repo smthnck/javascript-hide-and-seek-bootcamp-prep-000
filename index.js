@@ -3,10 +3,13 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
-  return document.querySelector('#nested .target')
+  return document
+    .getElementById('app')
+    .querySelector('#nested .target')
 }
 
 function increaseRankBy(n){
   document
-    .querySelectorAll
+    .getElementById('app')
+    .querySelectorAll()
 }
