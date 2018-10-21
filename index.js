@@ -15,7 +15,7 @@ function increaseRankBy(n){
                 .getElementById('app')
                 .querySelectorAll('.ranked-list li')
   for (let i = 0;i < els.length;i++){
-    els[i].innerHTML = els[i].innerHTML+n;
+    els[i].innerHTML = parseInt(els[i].innerHTML)+n;
   }
 }
 
