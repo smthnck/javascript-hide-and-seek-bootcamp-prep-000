@@ -21,6 +21,7 @@ function deepestChild(){
   const grand = document
                   .getElementById('app')
                   .querySelector('#grand')
+  const gl = grand.length
   for (let i = 0;i<grand.length;i++){
     grand[i].
   }
