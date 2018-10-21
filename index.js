@@ -23,5 +23,7 @@ function deepestNodeChild(){
   const deep = document
                 .getElementById('app')
                 .querySelector('#grand-node')
-  
+  for (let i = 0;i < deep.length;i++){
+    
+  }
 }
