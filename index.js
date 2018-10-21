@@ -2,4 +2,6 @@ function getFirstSelector(selector){
   return document.querySelectAll('selector')
 }
 
-function nestedTarget()
+function nestedTarget(){
+  return document.querySelectAll
+}
