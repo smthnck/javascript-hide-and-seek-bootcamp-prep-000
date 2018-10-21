@@ -24,5 +24,5 @@ function deepestChild(){
                 .getElementById('app')
                 .querySelector('#grand-node')
   const child = deep.querySelectorAll('*')
-  return child[(child.length)-1].innerHTML
+  return child[(child.length)-1]
 }
