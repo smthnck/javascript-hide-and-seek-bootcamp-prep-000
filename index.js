@@ -23,6 +23,6 @@ function deepestChild(){
   const deep = document
                 .getElementById('app')
                 .querySelector('#grand-node')
-  const child = deep.querySelectorAll('*').length
-  return child[length-1].innerHTML
+  const child = deep.querySelectorAll('*')
+  return child[(child.length)-1].innerHTML
 }
