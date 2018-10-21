@@ -16,3 +16,8 @@ function increaseRankBy(n){
     els[i] = parseInt(els[i]+n)
   }
 }
+
+function deepestChild(){
+  const grand = document
+                  .getElementById('grand-node')
+}
