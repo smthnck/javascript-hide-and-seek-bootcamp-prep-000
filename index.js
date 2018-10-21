@@ -11,5 +11,5 @@ function nestedTarget(){
 function increaseRankBy(n){
   document
     .getElementById('app')
-    .querySelectorAll()
+    .querySelectorAll('.ranked-list')
 }
